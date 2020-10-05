@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A315C9A252B54BD0015088A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A315C99252B54BD0015088A /* AppDelegate.swift */; };
+		8A315C9C252B54BD0015088A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A315C9B252B54BD0015088A /* SceneDelegate.swift */; };
+		8A315C9E252B54BD0015088A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A315C9D252B54BD0015088A /* ViewController.swift */; };
+		8A315CA1252B54BD0015088A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A315C9F252B54BD0015088A /* Main.storyboard */; };
+		8A315CA3252B54C20015088A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CA2252B54C20015088A /* Assets.xcassets */; };
+		8A315CA6252B54C20015088A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CA4252B54C20015088A /* LaunchScreen.storyboard */; };
+		8A315CB0252B58580015088A /* Catamaran-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CAD252B58580015088A /* Catamaran-Light.ttf */; };
+		8A315CB1252B58580015088A /* Catamaran-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CAE252B58580015088A /* Catamaran-Bold.ttf */; };
+		8A315CB2252B58580015088A /* Catamaran-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CAF252B58580015088A /* Catamaran-Regular.ttf */; };
+		8A315CB7252B587C0015088A /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CB3252B587C0015088A /* GothamRounded-Medium.otf */; };
+		8A315CB8252B587C0015088A /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CB4252B587C0015088A /* GothamRounded-Book.otf */; };
+		8A315CB9252B587C0015088A /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CB5252B587C0015088A /* GothamRounded-Bold.otf */; };
+		8A315CBA252B587C0015088A /* GothamRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A315CB6252B587C0015088A /* GothamRounded-Light.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A315C96252B54BD0015088A /* dawdleAppFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dawdleAppFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A315C99252B54BD0015088A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A315C9B252B54BD0015088A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A315C9D252B54BD0015088A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A315CA0252B54BD0015088A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A315CA2252B54C20015088A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A315CA5252B54C20015088A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A315CA7252B54C20015088A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A315CAD252B58580015088A /* Catamaran-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Catamaran-Light.ttf"; path = "../../../../Downloads/_Fonts/_newer fonts/Catamaran-Light.ttf"; sourceTree = "<group>"; };
+		8A315CAE252B58580015088A /* Catamaran-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Catamaran-Bold.ttf"; path = "../../../../Downloads/_Fonts/_newer fonts/Catamaran-Bold.ttf"; sourceTree = "<group>"; };
+		8A315CAF252B58580015088A /* Catamaran-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Catamaran-Regular.ttf"; path = "../../../../Downloads/_Fonts/_newer fonts/Catamaran-Regular.ttf"; sourceTree = "<group>"; };
+		8A315CB3252B587C0015088A /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRounded-Medium.otf"; path = "../../../../Downloads/_Fonts/gotham-rounded/GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		8A315CB4252B587C0015088A /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRounded-Book.otf"; path = "../../../../Downloads/_Fonts/gotham-rounded/GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		8A315CB5252B587C0015088A /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRounded-Bold.otf"; path = "../../../../Downloads/_Fonts/gotham-rounded/GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		8A315CB6252B587C0015088A /* GothamRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRounded-Light.otf"; path = "../../../../Downloads/_Fonts/gotham-rounded/GothamRounded-Light.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A315C93252B54BD0015088A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A315C8D252B54BD0015088A = {
+			isa = PBXGroup;
+			children = (
+				8A315CB5252B587C0015088A /* GothamRounded-Bold.otf */,
+				8A315CB4252B587C0015088A /* GothamRounded-Book.otf */,
+				8A315CB6252B587C0015088A /* GothamRounded-Light.otf */,
+				8A315CB3252B587C0015088A /* GothamRounded-Medium.otf */,
+				8A315CAE252B58580015088A /* Catamaran-Bold.ttf */,
+				8A315CAD252B58580015088A /* Catamaran-Light.ttf */,
+				8A315CAF252B58580015088A /* Catamaran-Regular.ttf */,
+				8A315C98252B54BD0015088A /* dawdleAppFinal */,
+				8A315C97252B54BD0015088A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A315C97252B54BD0015088A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A315C96252B54BD0015088A /* dawdleAppFinal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A315C98252B54BD0015088A /* dawdleAppFinal */ = {
+			isa = PBXGroup;
+			children = (
+				8A315C99252B54BD0015088A /* AppDelegate.swift */,
+				8A315C9B252B54BD0015088A /* SceneDelegate.swift */,
+				8A315C9D252B54BD0015088A /* ViewController.swift */,
+				8A315C9F252B54BD0015088A /* Main.storyboard */,
+				8A315CA2252B54C20015088A /* Assets.xcassets */,
+				8A315CA4252B54C20015088A /* LaunchScreen.storyboard */,
+				8A315CA7252B54C20015088A /* Info.plist */,
+			);
+			path = dawdleAppFinal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A315C95252B54BD0015088A /* dawdleAppFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A315CAA252B54C20015088A /* Build configuration list for PBXNativeTarget "dawdleAppFinal" */;
+			buildPhases = (
+				8A315C92252B54BD0015088A /* Sources */,
+				8A315C93252B54BD0015088A /* Frameworks */,
+				8A315C94252B54BD0015088A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dawdleAppFinal;
+			productName = dawdleAppFinal;
+			productReference = 8A315C96252B54BD0015088A /* dawdleAppFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A315C8E252B54BD0015088A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Eric Tolbert";
+				TargetAttributes = {
+					8A315C95252B54BD0015088A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 8A315C91252B54BD0015088A /* Build configuration list for PBXProject "dawdleAppFinal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A315C8D252B54BD0015088A;
+			productRefGroup = 8A315C97252B54BD0015088A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A315C95252B54BD0015088A /* dawdleAppFinal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A315C94252B54BD0015088A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A315CB2252B58580015088A /* Catamaran-Regular.ttf in Resources */,
+				8A315CB0252B58580015088A /* Catamaran-Light.ttf in Resources */,
+				8A315CA6252B54C20015088A /* LaunchScreen.storyboard in Resources */,
+				8A315CB1252B58580015088A /* Catamaran-Bold.ttf in Resources */,
+				8A315CB7252B587C0015088A /* GothamRounded-Medium.otf in Resources */,
+				8A315CB9252B587C0015088A /* GothamRounded-Bold.otf in Resources */,
+				8A315CBA252B587C0015088A /* GothamRounded-Light.otf in Resources */,
+				8A315CA3252B54C20015088A /* Assets.xcassets in Resources */,
+				8A315CB8252B587C0015088A /* GothamRounded-Book.otf in Resources */,
+				8A315CA1252B54BD0015088A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A315C92252B54BD0015088A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A315C9E252B54BD0015088A /* ViewController.swift in Sources */,
+				8A315C9A252B54BD0015088A /* AppDelegate.swift in Sources */,
+				8A315C9C252B54BD0015088A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A315C9F252B54BD0015088A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A315CA0252B54BD0015088A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A315CA4252B54C20015088A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A315CA5252B54C20015088A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A315CA8252B54C20015088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A315CA9252B54C20015088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A315CAB252B54C20015088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4VK76B5MS;
+				INFOPLIST_FILE = dawdleAppFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithEric.dawdleAppFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A315CAC252B54C20015088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4VK76B5MS;
+				INFOPLIST_FILE = dawdleAppFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithEric.dawdleAppFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A315C91252B54BD0015088A /* Build configuration list for PBXProject "dawdleAppFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A315CA8252B54C20015088A /* Debug */,
+				8A315CA9252B54C20015088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A315CAA252B54C20015088A /* Build configuration list for PBXNativeTarget "dawdleAppFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A315CAB252B54C20015088A /* Debug */,
+				8A315CAC252B54C20015088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A315C8E252B54BD0015088A /* Project object */;
+}
